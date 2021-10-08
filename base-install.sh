@@ -51,7 +51,7 @@ completed "Pacman configured"
 
 # Install base system
 info "Installing base system"
-pacstrap /mnt base linux linux-firmware vim intel-ucode
+pacstrap /mnt base linux linux-firmware vim intel-ucode git
 completed "Base system installed"
 
 # Generate FSTAB
